@@ -1,0 +1,37 @@
+{
+    "docDataStore": {
+        "staff": {
+            "conditionCurrent": [{"staff_category_id": "84aa516597b1a3b606204e94"}],
+            "summary": {
+                "totalRow": 3,
+                "totalPage": 1
+            },
+            "pagingCurrent": {
+                "size": 0,
+                "index": 1
+            },
+            "dataArray":
+            [
+             {
+             
+                "userName":"张三",
+                "userId":"11001",
+                "gender":"男",
+                "integral":"100000"
+             
+                
+             },
+             {
+             
+                "userName":"王万",
+                "userId":"11002",
+                "gender":"男",
+                "integral":"100000"
+             
+             
+             
+             }
+             ]
+        }
+    }
+}

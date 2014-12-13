@@ -1,0 +1,6 @@
+framework module VTX {
+  umbrella header "VTX.h"
+
+  export *
+  module * { export * }
+}

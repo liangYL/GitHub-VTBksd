@@ -1,0 +1,79 @@
+<root>
+    <UIScrollView cid="scrollView">
+        <UIView cid="headView"  size="0,200" >
+            <STButtonView cid="testButton" size="0,40" title="测试"  titlecolor-Color="0.1,1.0,0.1,1.0" backgroundColor-Color="0.18,0.7,0.47,1.0" margin="10,200,10,10" titleFont-Font="Helvetica,14" />
+            <UIImageView cid ="headImg" size="75,75" margin="25,122,0,0" image="$(hrimage)" border-radius="37.5"/>
+             <STStarRatingView cid="userStar" size="100,20" margin="10,110,0,0" percent="$(explevel)"  starNumber="5" backgroundStar="starRating_backgroundStar.png" foregroundStar="starRating_foregroundStar.png" />
+            <STLabelLabelView classs="LabelStyle" cid="label1" lefttext="工号:" righttext="$(hrcode)"/>
+            <UIView cid="lineView" classs="lineStyle"/>
+            <STLabelLabelView classs="LabelStyle" cid="label1" lefttext="姓名:" righttext="$(hrname)"/>
+            <UIView cid="lineView" classs="lineStyle"/>
+            <STLabelLabelView classs="LabelStyle" cid="label1" lefttext="归属:" righttext="$(dptname)"/>
+            <UIView cid="lineView" classs="lineStyle"/>
+            <STLabelLabelView classs="LabelStyle" cid="label1" lefttext="备注:" righttext="$(remark)"/>
+             <UIView cid="lineView" classs="lineStyle"/>
+        </UIView>
+        <UIView cid="codeModifyView" size="0,30" margin="30,15,0,15">
+            <UILabel cid="code" size="80,20" text="修改密码" margin="5,10,0,0" font-Font="Helvetica Neue,14.0" textColor-Color="0,0,0,1.0"/>
+            <UIImageView cid ="arrowImg" size="12,20" display="inline" margin="0,180,0,5" image-Image="arrow.png"/>
+        </UIView>
+        <UIView cid="lineView" classs="lineStyle2"/>
+        <UIView cid="versionView" size="0,30" margin="20,15,0,15">
+            <UILabel cid="code" size="80,20" text="版本升级" margin="5,10,0,0" font-Font="Helvetica Neue,14.0" textColor-Color="0,0,0,1.0"/>
+            <UIImageView cid ="arrowImg" size="12,20" display="inline" margin="0,180,0,5" image-Image="arrow.png"/>
+        </UIView>
+         <UIView cid="lineView" classs="lineStyle2"/>
+        <STButtonView cid="exitButton" size="0,40" title="退出"  titlecolor-Color="0.1,1.0,0.1,1.0" backgroundColor-Color="0.18,0.7,0.47,1.0" margin="20,20,10,20" titleFont-Font="Helvetica,14" />
+    </UIScrollView>
+     <XCForm cid="changeImg" size="1,1"/>
+     <XCForm cid="versionUpdate" size="1,1"/>
+    <style>
+        "lineStyle":{
+        "size":"0,1",
+        "backgroundColor-Color":"0.86,0.86,0.86,0.86",
+        "margin":"10,20,0,20"
+        
+        },
+        "lineStyle2":{
+        "size":"0,1",
+        "backgroundColor-Color":"0.86,0.86,0.86,0.86",
+        "margin":"0,15,0,15"
+        
+        },
+        "LabelStyle":{
+        
+        "keyWidth":"70",
+        "valueWidth":"180",
+        "space":"0",
+        "margin":"10,10,0,10",
+        "size":"0,25",
+        "leftFont-Font":"Helvetica Neue,14.0",
+        "leftColor-Color":"0,0,0,1.0",
+        "rightFont-Font":"Helvetica Neue,14.0",
+        "rightColor-Color":"0,0,0,0.8"
+        }
+    </style>
+    <compntDefin>
+        "componentName": "GKUserView",
+        "compoType": "userView",
+        "component_No": "001",
+        "compntDefin": {
+        "views":[
+        {
+        "viewname":"changeImg",
+        "blocks":[
+        {"blockName": "userImgTable","dataSetType": "table","superiors": "root"}
+        ]
+        },
+        {
+        "viewname":"versionUpdate",
+        "blocks":[
+        {"blockName": "versionView","dataSetType": "table","superiors": "root"}
+        
+        ]
+        }
+        ]
+        
+        }
+    </compntDefin>
+</root>

@@ -1,0 +1,31 @@
+<root>
+    <UIView cid="View" size="320,560">
+    <UIImageView cid="testView"  margin="120,60,200,60" image-Image="welcome.png" backgroundColor-Color="0.58,0.59,0.58,0.5"/>
+    </UIView>
+    <style>
+    </style>
+    <compntDefin>
+        "componentName": "testView",
+        "compoType": "View",
+        "component_No": "A001",
+        "compntDefin": {
+        "views":[
+        {
+        "viewname":"View",
+        "blocks":[
+        {"blockName": "AA","dataSetType": "table","superiors": "root"}
+        ]
+        },
+        {
+        "viewname":"testView",
+        "blocks":[
+        {"blockName": "AA","dataSetType": "table","superiors": "root"}
+        
+        ]
+        }
+        ]
+        
+        }
+
+    </compntDefin>
+</root>

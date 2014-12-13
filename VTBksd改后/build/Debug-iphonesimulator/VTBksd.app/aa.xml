@@ -1,0 +1,10 @@
+<root>
+    <UILabel cid="label" classs="label" margin="100,100,0,100" size="0,20" text="奔宇科技公司" textAlignment-TextAlignment="1" backgroundColor-Color="1,1,1,1">
+    </UILabel>
+    <UIImageView cid="img" size="0,100" margin="10,100,0,100"  image-Image="logo.png" backgroundColor-Color="1,1,1,1">
+    </UIImageView>
+    <UILabel cid="label1" classs="label" margin="10,100,0,100" size="0,20" text="测试" textAlignment-TextAlignment="1" backgroundColor-Color="1,1,1,1">
+    </UILabel>
+    <UIButton cid="btn"  margin="10,130,0,130" size="0,50" title="按钮" backgroundColor-Color="1,1,1,1">
+    </UIButton>
+</root>

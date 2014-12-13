@@ -1,0 +1,57 @@
+<root>
+    <UIScrollView cid="scrollView" size="0,0">
+        <UIView margin="0,0" size="0,260">
+            <UILabel margin="10,10,0,0" size="0,20" text="订单信息" font-Font="Helvetica Neue,14.0" />
+            <STLabelLabelView cid="ordercode" classs="LabelLabel" lefttext="单号" righttext="$(ordercode)" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            <STLabelLabelView cid="orderstatus" classs="LabelLabel" lefttext="状态" righttext="$(orderstatus)" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            <STLabelLabelView cid="docdate" classs="LabelLabel" lefttext="日期" righttext="$(docdate)" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            <STLabelLabelView cid="de_addr" classs="LabelLabel" lefttext="地址" righttext="$(de_addr)" size="0,50" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            <STLabelLabelView cid="sendname" classs="LabelLabel" lefttext="签收人" righttext="$(back_oper)" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            <STLabelLabelView cid="back_date" classs="LabelLabel" lefttext="签收时间" righttext="$(back_date)" />
+            <UIView margin="0,10" size="0,0.5" backgroundColor-Color="0,0,0,0.2" />
+            
+            <UILabel margin="10,10,10,0" size="0,30" text="商品信息" font-Font="Helvetica Neue,15.0" />
+        </UIView>
+    </UIScrollView>
+    <style>
+        "LabelLabel":{
+        "keyWidth":"70",
+        "valueWidth":"180",
+        "space":"50",
+        "margin":"10,25,0,20",
+        "size":"0,30",
+        "leftFont-Font":"Helvetica Neue,14.0",
+        "leftColor-Color":"0.004,0.004,0.004,1.0",
+        "rightFont-Font":"Helvetica Neue,14.0",
+        "rightColor-Color":"0.62,0.62,0.62,1.0",
+        "leftTextAlignment":"0",
+        "rightTextAlignment":"2"
+        
+        }
+    </style>
+    <compntDefin>
+        "componentName": "productList",
+        "compoType": "List",
+        "component_No": "001",
+        "compntDefin": {
+        "views":[
+        {
+        "viewname":"list",
+        "blocks":[
+        {"blockName": "tableView","dataSetType": "table","superiors": "root"},
+        {"blockName": "tableViewCell","dataSetType": "row","superiors": "tableView"}
+        ]
+        }
+        ],
+        "compoSetting": [
+        "cellLayoutPath"
+        ]
+        
+        }
+    </compntDefin>
+</root>

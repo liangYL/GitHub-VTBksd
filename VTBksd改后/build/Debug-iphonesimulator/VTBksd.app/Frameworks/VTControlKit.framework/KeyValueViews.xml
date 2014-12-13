@@ -1,0 +1,29 @@
+<root>
+    <UIScrollView cid="label" size="0,0">
+        <STLabelTextFieldView classs="keyValueView" cid="div1" backgroundColor-Color="0,0,0,0.2" size="0,40" labeltext="分类" textFieldPlaceholder="请选择分类">
+        </STLabelTextFieldView>
+        <STLabelLabelView classs="keyValueView" cid="div2" backgroundColor-Color="0,0,0,0.2" size="0,40" lefttext="分类" righttext="请选择分类">
+        </STLabelLabelView>
+        <STImageLabelView classs="imagelabel" cid="div3" backgroundColor-Color="0,0,0,0.2" size="0,40" image-Image="head.jpg" text="请选择分类">
+        </STImageLabelView>
+        <STLabelPikerView classs="keyValueView" cid="div4" backgroundColor-Color="0,0,0,0.2" size="0,40" labeltext="分类" pickViewTitle="请选择分类">
+        </STLabelPikerView>
+    </UIScrollView>
+    <style>
+        "keyValueView":{
+        "margin":"10,10,0,10",
+        "keyWidth":"70",
+        "valueWidth":"200",
+        "space":"10"
+        },
+        "imagelabel":{
+        "margin":"10,10,0,10",
+        "keyWidth":"30",
+        "valueWidth":"200",
+        "space":"10"
+        }
+    </style>
+    <params>
+        
+    </params>
+</root>

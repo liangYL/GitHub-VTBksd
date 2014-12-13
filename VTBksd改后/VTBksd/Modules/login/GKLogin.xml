@@ -1,0 +1,42 @@
+<root>
+    <UIImageView cid="imgView" size="80,80" margin="57,120,0,0" image-Image="logo.png" />
+    <UIImageView cid="userImg" size="25,25" margin="50,30,0,0" image-Image="username.png" />
+    <UITextField classs="textFildStyle" cid="userNameTextField"  display="inline" placeholder="用户名" margin="0,20,0,15"></UITextField>
+    <UIView cid="lineView" classs="lineStyle"/>
+    <UIImageView cid="passwordImg" size="25,25" margin="33,30,0,0" image-Image="usercode11.png" />
+    <UITextField classs="textFildStyle" cid="passWordTextField" display="inline"  placeholder="密码" margin="0,20,0,15" font-Font="Helvetica Neue,14.0" ></UITextField>
+    <UIView cid="lineView" classs="lineStyle"/>
+    <STButtonView cid="loginbutton" size="0,40" title="登录" titlecolor-Color="0.1,1.0,0.1,1.0" backgroundColor-Color="0.16,0.7,0.47,1.0" margin="50,15,0,15">
+    </STButtonView>
+
+    <XCForm cid="login" >
+    </XCForm>
+    <style>
+        "lineStyle":{
+        "size":"0,1",
+        "backgroundColor-Color":"0.86,0.86,0.86,0.86",
+        "margin":"1,15,0,15"
+        },
+        "textFildStyle":{
+        "backgroundColor-Color":"1.0,1.0,1.0,1.0",
+        "size":"0,30",
+        "borderStyle":"3",
+        "font-Font":"Helvetica,14.0"
+        }
+    </style>
+    <compntDefin>
+        "componentName": "GKLoginView",
+        "compoType": "View",
+        "component_No": "001",
+        "compntDefin": {
+        "views": [
+        {
+            "viewname": "login"
+        }
+        ],
+        "compoSetting": [
+            "loginType","ICE_spaceId"
+        ]
+        }
+    </compntDefin>
+</root>

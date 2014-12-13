@@ -1,0 +1,39 @@
+{
+    "pageNo":"userInfo",
+    "modules":[
+               {
+               "area":"view",
+               "nikName":"userInfoView",
+               "layoutPath":"@GKUserInfo.xml",
+               "moduleNO":"A001",
+               "moduleClass":"GKUserInfoView",
+               "loadMsg":"",
+               "hud":"",
+               "settings":{
+               "compoSetting": {
+               },
+               "viewSetting": {
+               "views": {
+               "changeImg": {
+               "modelid": "blogexpress_model_expcarrier_app_0002",
+               "blocks": {
+               "userImgTable": {
+               "tablename": "expcarrier_app"}
+               }
+               },
+               "versionUpdate":{
+               "modelid": "blogexpress_model_app_version_0001",
+               "blocks": {
+               "versionView": {
+               "tablename": "app_version"}
+               }
+               }
+               }
+               
+      
+               }
+               }
+               
+               }
+               ]
+}

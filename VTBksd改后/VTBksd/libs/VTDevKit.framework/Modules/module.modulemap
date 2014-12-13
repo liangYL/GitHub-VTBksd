@@ -1,0 +1,6 @@
+framework module VTDevKit {
+  umbrella header "VTDevKit.h"
+
+  export *
+  module * { export * }
+}

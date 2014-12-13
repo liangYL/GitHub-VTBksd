@@ -1,0 +1,14 @@
+<root>
+    <UIView size="0,0" margin="0,0">
+        
+        <UIView margin="5,10" size="180,0">
+            <UILabel cid="productName" margin="5,15,5,5" size="170,20" text="$(product_name)" font-Font="Helvetica,12.0" />
+        </UIView>
+    
+        <UIView display="inline" margin="0,10" size="80,0" >
+            <UILabel cid="productPrice" margin="2,5" size="70,20" text="$(price)" font-Font= "Helvetica,14.0" textColor-Color="0.47,0.47,0.47,1" textAlignment-TextAlignment="2" />
+            <UILabel cid="productCount" display="inline" margin="2,5" size="70,20" text="$(qty)" font-Font= "Helvetica,12.0" textAlignment-TextAlignment="2"/>
+        </UIView>
+        
+    </UIView>
+</root>

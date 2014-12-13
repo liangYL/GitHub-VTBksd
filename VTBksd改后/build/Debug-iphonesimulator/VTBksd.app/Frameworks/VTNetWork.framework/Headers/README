@@ -1,0 +1,16 @@
+
+dev v1.1
+@王晓超 2014-6-10日创建。
+
+郑州工厂计划-IOS端框架平台。
+VTNetWork子项目-平台核心网络服务项目。
+
+文件夹描述：
+Error : 错误对象
+Protocol : 项目声明文件；
+    Public : 公共声明
+Receive : 消息签收
+Route : 消息路由
+Receipt : 消息回执
+Pool : 消息池
+Util : 工具包

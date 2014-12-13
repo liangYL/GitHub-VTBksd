@@ -1,0 +1,6 @@
+framework module VTMessage {
+  umbrella header "VTMessage.h"
+
+  export *
+  module * { export * }
+}

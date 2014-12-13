@@ -1,0 +1,21 @@
+<root>
+    <UIImageView cid="imgView" size="200,85" margin="120,60,0,0" image-Image="welcome.png" />
+    <XCForm cid="login"/>
+    <style>
+    </style>
+    <compntDefin>
+        "componentName": "guestLoginView",
+        "compoType": "View",
+        "component_No": "001",
+        "compntDefin": {
+        "views": [
+        {
+        "viewname": "login"
+        }
+        ],
+        "compoSetting": [
+        "loginType","ICE_spaceId"
+        ]
+        }
+    </compntDefin>
+</root>

@@ -1,0 +1,21 @@
+{
+    "pageNo":"STGuestLogin",
+    "modules":[
+               {
+               "area":"view",
+               "nikName":"loginView",
+               "layoutPath":"@STGuestLoginView.xml",
+               "moduleNO":"A001",
+               "moduleClass":"STGuestLoginView",
+               "loadMsg":"",
+               "hud":"",
+               "settings":{
+               "compoSetting": {
+               "loginType": "0",
+               "ICE_spaceId":"blogexpress"
+               }
+               }
+               
+               }
+               ]
+}

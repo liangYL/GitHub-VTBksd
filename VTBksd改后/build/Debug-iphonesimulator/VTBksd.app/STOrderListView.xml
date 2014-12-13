@@ -1,0 +1,28 @@
+<root>
+    <XCForm cid="list"  >
+        <XCPullTableView cid="tableView" backgroundColor-Color="1.0,1.0,1.0,1" />
+    </XCForm>
+    <compntDefin>
+        "componentName": "OrderList",
+        "compoType": "List",
+        "component_No": "001",
+        "compntDefin": {
+        "views":[
+            {
+                "viewname":"list",
+                "blocks":[
+                    {"blockName": "tableView","dataSetType": "table","superiors": "root"},
+                    {"blockName": "tableViewCell","dataSetType": "row","superiors": "tableView"},
+                ]
+            }
+        ],
+        "plugins":[
+            {"pluginName": "tableView","pluginType": "table","dataBlock": "tableView","Params": ["pullTopClass", "pullDownClass", "topHide","downHide"]}
+        ],
+        "compoSetting": [
+            "cellLayoutPath","tableCellHeight"
+        ]
+        
+        }
+    </compntDefin>
+</root>

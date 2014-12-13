@@ -1,0 +1,39 @@
+{
+    "pageNo":"test",
+    "modules":[
+               {
+               "area":"view",
+               "nikName":"testView",
+               "layoutPath":"@test.xml",
+               "moduleNO":"A001",
+               "moduleClass":"testView",
+               "loadMsg":"",
+               "hud":"",
+               "settings":{
+               "compoSetting": {
+               },
+               "viewSetting": {
+               "views": {
+               "View": {
+               "modelid": "blogexpress_model_expcarrier_app_0002",
+               "blocks": {
+               "AA": {
+               "tablename": "expcarrier_app"}
+               }
+               },
+               "testView":{
+               "modelid": "blogexpress_model_app_version_0001",
+               "blocks": {
+               "AA": {
+               "tablename": "app_version"}
+               }
+               }
+               }
+               
+               
+               }
+               }
+               
+               }
+               ]
+}

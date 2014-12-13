@@ -1,0 +1,45 @@
+{
+    "pageNo":"homePage",
+    "modules":[
+               {
+               "area":"view",
+               "nikName":"homePageView",
+               "layoutPath":"@GKHomePage.xml",
+               "moduleNO":"A001",
+               "moduleClass":"GKHomePageView",
+               "loadMsg":"",
+               "hud":"",
+               "settings":{
+               "compoSetting": {
+               },
+               "viewSetting": {
+               "views": {
+               "userInfo": {
+               "modelid": "blogexpress_model_expcarrier_app_0002",
+               "blocks": {
+               "userInfoView": {
+               "tablename": "expcarrier_app"
+               },
+               "user": {
+               }
+               }
+               },
+               "orderCount":{
+               "modelid": "blogexpress_model_morder_app_0002",
+               "blocks":{
+               "contView": {
+               "tablename": "morder_app"
+               }
+               
+               
+               }
+
+               
+               }
+               }
+               }
+               }
+               
+               }
+               ]
+}

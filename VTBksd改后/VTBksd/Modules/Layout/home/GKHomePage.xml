@@ -1,0 +1,77 @@
+<root>
+    <XCPullScrollView size="320,0" cid="scrollView">
+        <UIView cid="userInfoView" size="0,120"  >
+            <UIImageView cid ="headImg" size="75,75" margin="20,20,20,0" image="$(hrimage)" border-radius="37.5" />
+            <UIView size="0,80" display="inline">
+                <UILabel cid="userName"  size="60,20" margin="10,20,0,0" text="$(hrname)" font-Font="Helvetica,15.0"/>
+                <UIImageView cid ="arrowImg" size="12,20"  margin="0,180,0,25" image-Image="arrow.png"/>
+                <STStarRatingView cid="userStar" size="100,20" margin="0,20,0,0" percent="$(explevel)"  starNumber="5" backgroundStar="starRating_backgroundStar.png" foregroundStar="starRating_foregroundStar.png" />
+            </UIView>
+            <UIView cid="lineView" size="0,1" margin="10,15,1,15" backgroundColor-Color="0.58,0.59,0.58,0.5"/>
+        </UIView>
+        <UIView cid="contView" size="0,405">
+            <UIView cid="WaitingOrderView" size="140,100" margin="10,0,0,0" >
+                <UIImageView size="80,80" margin="20,40,0,0" image-Image="qqqq.png">
+                    <STMultifunctionImageView cid="WaitingOrderImg" size="40,40" margin="20,20,0,0" image-Image="qqq.png" cornerMarkTitle="0"/>
+                </UIImageView>
+                <UILabel cid="userName"  size="80,20" margin="20,50,0,0" text="待送订单" font-Font="Helvetica,14.0"/>
+                <UIView cid="line" size="145,1" margin="30,20,0,0" backgroundColor-Color="0.58,0.59,0.58,0.5"/>
+            </UIView>
+            <UIView cid="lineView" display="inline" size="1,170" margin="50,20,1,0" backgroundColor-Color="0.58,0.59,0.58,0.5"/>
+            
+            <UIView cid="alreadyOrderView" size="140,100" display="inline" margin="10,0,0,0" >
+                <UIImageView size="80,80" margin="20,40,0,0" image-Image="qqqq.png">
+                    <STMultifunctionImageView cid="alreadyOrderImg" size="40,40" margin="20,20,0,0" image-Image="bbb.png" cornerMarkTitle="0"/>
+                </UIImageView>
+                <UILabel cid="userName"  size="80,20" margin="20,50,0,0" text="已送订单" font-Font="Helvetica,14.0"/>
+                <UIView cid="line" size="0,1" margin="30,0,0,0" backgroundColor-Color="0.58,0.59,0.58,0.5" />
+            </UIView>
+            
+            <UIView cid="dealersView" size="140,100" margin="0,0,0,0"  >
+                <UIImageView size="80,80" margin="20,40,0,0" image-Image="qqqq.png">
+                    <STMultifunctionImageView cid="Img" size="40,40" margin="20,20,0,0" image-Image="ccc.png" />
+                </UIImageView>
+                <UILabel cid="userName"  size="80,20" margin="20,55,0,0" text="经销商" font-Font="Helvetica,14.0"/>
+            </UIView>
+            <UIView cid="lineView" display="inline" size="1,140" margin="50,20,1,0" backgroundColor-Color="0.58,0.59,0.58,0.5"/>
+            <UIView cid="personInfoView" size="140,100" display="inline" margin="0,0,0,0"  >
+                <UIImageView size="80,80" margin="20,40,0,0" image-Image="qqqq.png">
+                    <STMultifunctionImageView cid="Img" size="40,40" margin="20,20,0,0" image-Image="ddd.png"/>
+                </UIImageView>
+                <UILabel cid="userName"  size="80,20" margin="20,50,0,0" text="个人中心" font-Font="Helvetica,14.0"/>
+            </UIView>
+    </UIView>
+    </XCPullScrollView>
+    <XCForm cid="userInfo">
+    </XCForm>
+
+     <XCForm cid="orderCount">    
+    </XCForm>
+
+    <compntDefin>
+        "componentName": "GKHomePageView",
+        "compoType": "View",
+        "component_No": "001",
+        "compntDefin": {
+        "views": [
+        {
+            "viewname": "userInfo",
+            "blocks":[
+                {"blockName": "userInfoView","dataSetType": "table","superiors": "root"},
+                {"blockName": "user","dataSetType": "row","superiors": "userInfoView"},
+                
+            ]
+          
+        },
+        {
+            "viewname":"orderCount",
+            "blocks":[
+            {"blockName": "contView","dataSetType": "table","superiors": "root"}
+            ]
+        
+        
+        }
+        ]
+        }
+    </compntDefin>
+</root>

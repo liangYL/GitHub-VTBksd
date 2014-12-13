@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>def</key>
+	<dict>
+		<key>spaceId</key>
+		<string>wmt</string>
+		<key>systemid</key>
+		<string>904</string>
+		<key>configsystemid</key>
+		<string>904</string>
+		<key>domain</key>
+		<string>jkl</string>
+		<key>client_server</key>
+		<string>192.168.126.222:9999</string>
+		<key>client_router</key>
+		<string>bk.kinghn.com:9527</string>
+		<key>client_lan</key>
+		<string>1</string>
+		<key>messageSizeMax</key>
+		<string>1024</string>
+		<key>resendTimes</key>
+		<string>1</string>
+		<key>ice_encoding_version_major</key>
+		<string>1</string>
+		<key>ice_encoding_version_minor</key>
+		<string>0</string>
+		<key>reconnectionCount</key>
+		<string>1</string>
+		<key>guest</key>
+		<dict>
+			<key>userCode</key>
+			<string>guest</string>
+			<key>userpw</key>
+			<string>111111</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
